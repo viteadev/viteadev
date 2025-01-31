@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Midnight Game Studios, creators of immersive Roblox games including PLS DONATE modded games and real donation experiences.">
+    <title>Midnight Game Studios</title>
+    <link rel="icon" href="your-logo.png" type="image/png"> <!-- Studio Logo/Icon -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #eee;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(45deg, #1a1a1a, #333);
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            animation: fadeIn 2s ease-out;
+        }
+        header h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            animation: slideIn 1s ease-out;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #56ccf2;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #ff595e;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 40px;
+            color: #f39c12;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #1d1d1d;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            animation: fadeInUp 1.5s ease-out;
+        }
+        .about, .creations {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .about img {
+            max-width: 100%;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .about img:hover {
+            transform: scale(1.05);
+        }
+        p {
+            font-size: 1.1rem;
+            color: #bbb;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            font-size: 1.1rem;
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li:before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #56ccf2;
+        }
+        .discord-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #7289da;
+            color: #fff;
+            border-radius: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+        .discord-link:hover {
+            background-color: #6a7ae0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-size: 0.9rem;
+        }
+        footer a {
+            text-decoration: underline;
+        }
+
+        /* Keyframes for animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* Circular logo with hover effect */
+        header img {
+            width: 120px;  /* Adjust size of the logo */
+            height: 120px;
+            border-radius: 50%;  /* Makes the logo circular */
+            object-fit: cover;
+            transition: transform 0.3s ease; /* Adds a smooth scaling transition */
+        }
+        header img:hover {
+            transform: scale(1.05); /* Enlarges the logo slightly on hover */
+        }
+
+        /* Socials Section */
+        .socials {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .socials h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #f39c12;
+        }
+        .socials a {
+            display: inline-block;
+            margin: 10px 15px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .socials a:hover {
+            background-color: #56ccf2;
+            transform: scale(1.05);
+        }
+        .socials a:active {
+            background-color: #ff595e;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="midnightgames.png" alt="Studio Logo"> <!-- Logo here -->
+    <h1>Midnight Game Studios</h1>
+    <p>We do everything you'd expect us to, but better.</p>
+</header>
+
+<section>
+    <h2 class="section-title">More About Us</h2>
+    <div class="about">
+        <p>Welcome to **Midnight Game Studios**, where we make games such as PLS DONATE MODDED and REAL PLS DONATE games, it became our thing to create this kind of games on the roblox platform.</p>
+        <p>We do everything you'd expect us to, but better. Our team works to present eveeryone the best versions of our files and games.</p>
+        <img src="fdfdsfds.webp" alt="Studio Game Creation Example">
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Our Creations</h2>
+    <div class="creations">
+        <h3>Featured Games</h3>
+        <ul>
+            <li>PLS DONATE Modded Game</li>
+            <li>Real Donation Game Mode</li>
+            <li>Custom Roblox Game Development</li>
+            <li>Community Events & Updates</li>
+        </ul>
+        <p>Our creations are designed to make the Roblox experience more fun and rewarding. Whether you want to donate, interact with the community, or experience unique game modes, we offer something for everyone. Check out our games and become a part of the Midnight Game Studios family!</p>
+    </div>
+</section>
+
+<section class="socials">
+    <h2>Follow Us</h2>
+    <a href="https://www.instagram.com/midholderacc/" target="_blank">Instagram</a>
+    <a href="https://discord.gg/TDx6jskf" target="_blank">Discord</a>
+    <a href="https://www.youtube.com/@ViteaStudios" target="_blank">YouTube</a>
+    <a href="https://www.guilded.gg/i/pLgV1M5k" target="_blank">Guilded</a>
+</section>
+
+<section>
+    <h2 class="section-title">Join Us</h2>
+    <p>Ready to join our community and become part of Midnight Game Studios? Join our Discord and stay updated with our latest projects, community events, and exclusive game features!</p>
+    <a href="https://discord.gg/TDx6jskf" class="discord-link" target="_blank">Join our Discord</a>
+</section>
+
+<footer>
+    <p>&copy; 2024 Midnight Game Studios. All rights reserved.</p>
+    <p><a href="https://discord.gg/TDx6jskf" target="_blank">Join our Discord community</a></p>
+</footer>
+
+</body>
+</html>
